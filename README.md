@@ -48,3 +48,13 @@ No hay prórroga: suban avances parciales con commits pequeños durante la prueb
 | [`test-manager-library-3145556-page`](https://github.com/code-sena/test-manager-library-3145556-page) | Sitio público estático de presentación |
 | [`test-manager-library-3145556-infra`](https://github.com/code-sena/test-manager-library-3145556-infra) | Contenedores, red, volúmenes y motor de base de datos vacío |
 | [`test-manager-library-3145556-tool`](https://github.com/code-sena/test-manager-library-3145556-tool) | Utilidades: sembrador de datos de demostración |
+
+## Sitio implementado
+
+Página estática, sin React ni dependencia de la API. Contenido en español, diseño
+adaptable, enlace para saltar al contenido y navegación por teclado. No promete
+reservas, multas ni funciones aún no verificadas. El acceso del personal apunta
+a `http://localhost:8080`, el puerto de la aplicación en Docker Compose.
+
+Se puede abrir `index.html` directamente o consultar `http://localhost:8081`
+tras iniciar la infraestructura. No necesita instalación ni compilación.
